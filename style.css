@@ -1,1 +1,13 @@
-
+body {
+    background: white;
+  }
+  p {
+    color: black;
+  }
+  h1 {
+    font-weight: bold;
+  }
+  
+  .navigator {
+    
+  }
