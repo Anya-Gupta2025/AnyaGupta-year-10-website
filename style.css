@@ -3,6 +3,7 @@ body {
   }
   p {
     color: black;
+    font-family: Chicken Pie;
   }
   h1 {
     font-weight: bold;
@@ -11,3 +12,7 @@ body {
   .navigator {
     
   }
+@font-face {
+  font-family: Chicken Pie;
+  src: url(chicken_pie/CHICKENPie.otf);
+}
