@@ -1,3 +1,122 @@
+/* Image Slider */
+  * {box-sizing:border-box}
+
+  /* Image Slider div */
+  .image-slider {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .images {
+    display: none;
+  }
+
+  /* prev and next buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22 px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* positioning the next button to the extreme right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, change colour to black which is a bit translucent */
+  .prev:hover, .next:hover {
+    color: rgba(0, 0, 0, 0.708);
+  }
+
+  /* Subject name style */
+  .subject {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.707);
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Chicken Pie;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .subjectTitle {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.707);
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Chicken Pie;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: center;
+  }
+
+  /* Subject Description Style */
+  .subjectDescription {
+      position: absolute;
+      top: 70px;
+      right: 20px;
+      background-color: rgba(0, 0, 0, 0.707);
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-left: 50%;
+  }
+
+  /* Caption text for each Image */
+  .caption {
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* Dots shoing the position of the image slider */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #d2d2d2;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  /* Style of dots when they are on current page and when they are just hovering */
+  .active, .dot:hover {
+    background-color: #7c7979;
+  }
+
+  /* Animation of fading */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+
+  /* Animation properties */
+  @keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
+  } 
+
+
 body {
     background: white;
   }
