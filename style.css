@@ -109,16 +109,16 @@
 /* Website name and Logo on Top */
 
   .titleAndLogo {
-    background-color: rgba(255, 217, 0, 0.742);
     width: 100%;
-    width: 100%;
-    margin-bottom: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2%;
     flex-wrap: wrap;
-    margin-top: 10px;        
+  }
+
+  .websiteTitle:hover {
+    color: gold;
   }
   
   .websiteTitle {
@@ -135,20 +135,75 @@
     border-radius: 50%;
   }
 
+
+/* Footer */
+  footer {
+    background-color: rgba(255, 217, 0, 0.742);
+  }
+
+/* Navigation Bar */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 217, 0, 0.696);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  li {
+    font-family: Title;
+    font-size: 12px;
+    width: 100%; 
+    height: 100%;   
+    }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  ul a:hover {
+    background-color: gold;
+    animation-name: appear;
+    animation-duration: 2s;
+  }
+
+  @keyframes appear {
+    from {color: gold}
+    to {opacity: 1}
+  } 
+
 body {
     background: white;
   }
   p {
     color: black;
-    font-family: Chicken Pie;
+    font-family: Body;
+    font-size: 13px;
+    text-align: center;
+    margin: 10px;
   }
   h1 {
     font-weight: bold;
+    font-family: Title;
+  }
+  h2 {
+    font-family: Title;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
   }
   
-  .noUnderline {
-    text-decoration: none;
-  }
+.noUnderline {
+  text-decoration: none;
+}
 
 @font-face {
   font-family: Title;
