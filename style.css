@@ -18,7 +18,7 @@
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -22 px;
+    margin-top: -22px;
     padding: 16px;
     color: white;
     font-weight: bold;
@@ -135,14 +135,56 @@
     border-radius: 50%;
   }
 
+/* Video */
+  .video-container {
+    text-align: center;
+  }
 
 /* Footer */
   footer {
     background-color: rgba(255, 217, 0, 0.742);
   }
 
+  /* Organisation on Footer */
+    .footer {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-right: 1%;
+    }
+    
+    /* Title and Logo */
+    .titleAndLogoFooter {
+      width: 100%;
+      display: flex;
+      padding-left: 2%;
+      justify-content: start;
+      align-items: center;
+      gap: 2%;
+      flex-wrap: wrap;
+    }
+
+    .logoFooter img{
+      border-radius: 50%;
+      width: 40px;
+    }
+
+    .youtube img {
+      border-radius: 50%;
+      width: 40px;
+    }
+
+    .websiteTitleFooter {
+      color: black;
+      font-size: 100%;
+    }
+
 /* Navigation Bar */
-  ul {
+  .navigator ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -153,14 +195,14 @@
     align-items: center;
   }
 
-  li {
+  .navigator li {
     font-family: Title;
     font-size: 12px;
     width: 100%; 
     height: 100%;   
     }
 
-  li a {
+  .navigator li a {
     display: block;
     color: black;
     text-align: center;
@@ -169,16 +211,16 @@
   }
 
   /* Change the link color to #111 (black) on hover */
-  ul a:hover {
-    background-color: gold;
-    animation-name: appear;
-    animation-duration: 2s;
-  }
+    ul a:hover {
+      background-color: gold;
+      animation-name: appear;
+      animation-duration: 2s;
+    }
 
-  @keyframes appear {
-    from {color: gold}
-    to {opacity: 1}
-  } 
+    @keyframes appear {
+      from {color: gold}
+      to {opacity: 1}
+    } 
 
 body {
     background: white;
