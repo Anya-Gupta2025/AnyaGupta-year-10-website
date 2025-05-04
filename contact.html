@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auzi's Young Learning Emporium</title>
     <link rel="stylesheet" href="style.css"/>
-    <script src="script.js"></script>
 </head>
 <body>
     <!-- Title and Logo -->
@@ -36,9 +35,36 @@
     <br>
 
     <!-- Contact form -->
-    <h2> Contanct Me! </h2>
+    <h2> Contact Me! </h2>
     <p>If you enjoyed learning through AYLE, you can get tutoring! Enquire through here:</p>
+    <br>
+    <div class="contact-container">
+      <form action="#">
     
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your Name" required>
+    
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your Last Name" required>
+    
+        <label for="yrLevel">Year Level:</label>
+        <select id="yrLevel" name="yrLevel">
+          <option value="7">Year 7</option>
+          <option value="8">Year 8</option>
+          <option value="9">Year 9</option>
+          <option value="10">Year 10</option>
+        </select>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Type here..." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div>
+
+    <br>
+    <br>
 
     <!-- footer -->
     <footer>
@@ -67,6 +93,5 @@
       </div>
     </footer>
       
-    
   </body>
 </html>
