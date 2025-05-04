@@ -46,7 +46,7 @@
     padding: 5px;
     border-radius: 5px;
     font-family: Title;
-    font-size: 16px;
+    font-size: 25px;
     position: absolute;
     top: 10%;
     right: 6%;
@@ -60,11 +60,10 @@
     right: 6%;
     background-color: rgba(0, 0, 0, 0.707);
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
     margin-left: 50%;
     font-family: Body;
-    font-size: 12px;
+    font-size: 18px;
     text-align: right;
     border-radius: 5px;
   }
@@ -72,7 +71,7 @@
   /* Caption text for each Image */
   .caption {
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
@@ -270,7 +269,7 @@
     color: white;
     padding: 2px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 17px;
     animation: fancy 2.0s;
   }
 
@@ -323,7 +322,7 @@ body {
   p {
     color: black;
     font-family: Body;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     margin: 10px;
   }
@@ -340,7 +339,6 @@ body {
 
 /* Other Pages Layout */
   .subjectImages {
-    max-width: 1000px;
     position: relative;
     margin: auto;
     animation: fancy 2.0s;
@@ -349,7 +347,7 @@ body {
   .courseContainer {
     display: flex;
     justify-content: space-between;
-    margin: 5%;
+    margin: 7%;
   }
 
   .courseContainer ol {
@@ -361,7 +359,7 @@ body {
   .courseLinks a, li{
     text-align: left;
     font-family: Body;
-    font-size: 13px;
+    font-size: 17px;
     color: black;
     text-decoration: none;
   }
@@ -380,7 +378,7 @@ body {
     border-radius: 5px;
     font-family: Title;
     color: black;
-    font-size: 15px;
+    font-size: 22px;
   }
   
   /* Caption text for each Image */

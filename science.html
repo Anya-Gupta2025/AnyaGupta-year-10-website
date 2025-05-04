@@ -1,43 +1,115 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auzi's Young Learning Emporium</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
     <!-- Title and Logo -->
-    <div class="">
-      <a href="index.html"><h1> Auzi's Young Learning Emporium </h1></a>
-      <a href="index.html"><img src="images/AYLE Logo.png" alt="AYLE Logo" width="100"></a>
+    <div class="top">
+      <div class="dropdown">
+        <div id="menu"></div>
+        <div class="dropdown-content">
+          <a href="contact.html">Contact Us</a>
+          <a href="youtube.html">YouTube</a>
+          <a href="instagram.html">Instagram</a>
+        </div>
+      </div>
+      <div class="titleAndLogo">
+        <a class="noUnderline" href="index.html"><h1 class="websiteTitle"> Auzi's Young Learning Emporium </h1></a>
+        <a class="logoTitle" href="index.html"><img src="images/AYLE Logo.png" alt="AYLE Logo" width="100"></a>
+      </div>
     </div>
-
-    <!-- Science Decription Bar -->
-    <img src="images/Science header.png" alt="Science header image by Robert Gruszecki" width="100%">
+    
     <!-- Menu -->
+    <div class="navigator">
+      <ul>
+        <li><a href="maths.html">Maths</a></li>
+        <li><a href="science.html">Science</a></li>
+        <li><a href="writing.html">Writing Pieces</a></li>
+        <li><a href="fun-space.html">Fun-space</a></li>
+      </ul>
+    </div>
+    <br>
 
-    <div class="">
-      <a href="maths.html">Maths</a>
-      <a href="science.html">Science</a>
-      <a href="writing.html">Writing Pieces</a>
-      <a href="fun-space.html">Fun-space</a>
+    <!-- Maths Image -->
+    <div class="subjectImages">
+      <div class="caption">By Robert Gruszecki</div>
+      <img src="images/Science header.png" alt="Science header image by Robert Gruszecki" width="100%">
+      <div class="subjectTitle">Science</div>
+      <div class="subjectDescription">Dive into a world of discovery, curiosity, and creativity. All ages can explore fascinating science topics, watch engaging videos, and learn through experiments about this awesome subject. Whether you're into physics, biology, chemistry, or just love asking “why?”, there is something here for you. Let us make science fun, accessible, and inspiring — one click at a time.</div>
+    </div>
+    <br>
+
+    <!-- Subject Courses -->
+    <h2> Courses </h2>
+    <p>Here are some videos and lessons that can help you with any level of science (build your foundation). These are really interesting as they try to answer some of your frequently asked questions! There will be new videos coming very soon to continue the topics which have been started!</p>
+    <div class="courseContainer">
+      <div>
+        <a class="courseName" href="https://www.youtube.com/playlist?list=PLnAjkt0ATMA92AP8kmg_HFqL5yr_9v2Rr">Biology</a>
+        <p></p>
+        <div class="video-container">
+          <iframe
+            width="560" height="315"
+            src="https://www.youtube.com/embed/RMS48Tqs3rw"
+            frameborder="0" allowfullscreen>
+          </iframe>
+        </div>
+        <ol>
+          <li class="courseLinks"><a href="https://www.youtube.com/watch?v=RMS48Tqs3rw&list=PLnAjkt0ATMA92AP8kmg_HFqL5yr_9v2Rr&index=1">Cells</a></li>
+          <li class="courseLinks"><a href="https://www.youtube.com/watch?v=RMS48Tqs3rw&list=PLnAjkt0ATMA92AP8kmg_HFqL5yr_9v2Rr&index=3">Radiation</a></li>
+          <li class="courseLinks"><a href="https://www.youtube.com/watch?v=RMS48Tqs3rw&list=PLnAjkt0ATMA92AP8kmg_HFqL5yr_9v2Rr&index=4">The 4 Domains of the Earth</a></li>
+        </ol>
+      </div>
+
+      <div>
+        <a class="courseName" href="https://www.youtube.com/playlist?list=PLtJ5ltautZ1D-BOv-u1aCsWzkzNrqBGRs">Science Exeriments</a>
+        <p></p>
+        <div class="video-container">
+          <iframe
+            width="560" height="315"
+            src="https://www.youtube.com/embed/FHe6uvKGYXc"
+            frameborder="0" allowfullscreen>
+          </iframe>
+        </div>
+        <ol>
+          <li class="courseLinks"><a href="https://www.youtube.com/watch?v=D5dAJWLKXr4&list=PLtJ5ltautZ1D-BOv-u1aCsWzkzNrqBGRs&index=1"> Chromatography </a></li>
+          <li class="courseLinks"><a href="https://www.youtube.com/watch?v=QsMtoWDy8rQ&list=PLtJ5ltautZ1D-BOv-u1aCsWzkzNrqBGRs&index=2"> Double Slit Experiment </a></li>
+          <li class="courseLinks"><a href="https://www.youtube.com/watch?v=QsMtoWDy8rQ&list=PLtJ5ltautZ1D-BOv-u1aCsWzkzNrqBGRs&index=3"> Magnetic Sand! </a></li>
+        </ol>
+      </div>
     </div>
 
-    <!-- Footer -->
+    <!-- footer -->
     <footer>
-      <div class="">
-        <a href="maths.html">Maths</a>
-        <a href="science.html">Science</a>
-        <a href="writing.html">Writing Pieces</a>
-        <a href="fun-space.html">Fun-space</a>
+      <div class="navigator">
+        <ul>
+          <li><a href="maths.html">Maths</a></li>
+          <li><a href="science.html">Science</a></li>
+          <li><a href="writing.html">Writing Pieces</a></li>
+          <li><a href="fun-space.html">Fun-space</a></li>
+        </ul>
       </div>
-      <p> Email auzisyounglearningemporium@gmail.com to ask any questions! </p>
+      <br>
+
+      <p class="align-left"> Email <a class = "noUnderline mail" href="mailto: auzisyounglearningemporium@gmail.com">auzisyounglearningemporium@gmail.com</a> to ask any questions! </p>
+      <p class="align-left credit">© 2025 Anya Gupta. Created by Anya Gupta.</p>
+      <br>
+
       <!-- Title and Logo -->
-      <div class="">
-        <a href="index.html"><h1> Auzi's Young Learning Emporium </h1></a>
-        <a href="index.html"><img src="images/AYLE Logo.png" alt="AYLE Logo" width="100"></a>
+      <div class="footer">
+        <div class="titleAndLogoFooter">
+          <a class="noUnderline" href="index.html"><h1 class="websiteTitleFooter"> Auzi's Young Learning Emporium </h1></a>
+          <a class="logoFooter" href="index.html"><img src="images/AYLE Logo.png" alt="AYLE Logo"></a>
+        </div>
+          <a class="youtube" href="https://www.youtube.com/@2minuteinfo771"><img src="images/YouTube Logo.png" alt="YouTube Channel: 2 Minute Info" width="100"> </a>
+          <a class="youtube" href="https://www.youtube.com/@AYLE2024"><img src="images/YouTube Logo.png" alt="YouTube Channel: Auzi's Young Learning Emporium" width="100"> </a>
       </div>
-      <a href="https://www.youtube.com/@2minuteinfo771"><img src="images/YouTube Logo.png" alt="YouTube Channel: 2 Minute Info" width="100"> </a>
-      <a href="https://www.youtube.com/@AYLE2024"><img src="images/YouTube Logo.png" alt="YouTube Channel: Auzi's Young Learning Emporium" width="100"> </a>
     </footer>
+      
     
   </body>
 </html>
