@@ -26,7 +26,7 @@ function automaticShow() {
         imageIndex = 1;
     }
 
-    setTimeout(automaticShow, 2000); // Change image every 2 seconds
+    setTimeout(automaticShow, 5000); // Change image every 2 seconds
   }
 
 // Going to next image
