@@ -1,46 +1,117 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auzi's Young Learning Emporium</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
     <!-- Title and Logo -->
-    <div class="">
-      <a href="index.html"><h1> Auzi's Young Learning Emporium </h1></a>
-      <a href="index.html"><img src="images/AYLE Logo.png" alt="AYLE Logo" width="100"></a>
+    <div class="top">
+      <div class="dropdown">
+        <div id="menu"></div>
+        <div class="dropdown-content">
+          <a href="contact.html">Contact Us</a>
+          <a href="youtube.html">YouTube</a>
+          <a href="instagram.html">Instagram</a>
+        </div>
+      </div>
+      <div class="titleAndLogo">
+        <a class="noUnderline" href="index.html"><h1 class="websiteTitle"> Auzi's Young Learning Emporium </h1></a>
+        <a class="logoTitle" href="index.html"><img src="images/AYLE Logo.png" alt="AYLE Logo" width="100"></a>
+      </div>
     </div>
-
-    <!-- Fun-space Description bar -->
-
-    <img src="images/Fun header.png" alt="Fun-space header image by Pattama Choomsree" width="100%">
-
+    
     <!-- Menu -->
-    <div class="">
-      <a href="maths.html">Maths</a>
-      <a href="science.html">Science</a>
-      <a href="writing.html">Writing Pieces</a>
-      <a href="fun-space.html">Fun-space</a>
+    <div class="navigator">
+      <ul>
+        <li><a href="maths.html">Maths</a></li>
+        <li><a href="science.html">Science</a></li>
+        <li><a href="writing.html">Writing Pieces</a></li>
+        <li><a href="fun-space.html">Fun-space</a></li>
+      </ul>
     </div>
-    
-    
-    <!-- Footer -->
+    <br>
+
+    <!-- Maths Image -->
+    <div class="subjectImages">
+      <div class="caption">By Pattama Choomsree</div>
+      <img src="images/Fun header.png" alt="Fun-space header image by Pattama Choomsree" width="100%">
+      <div class="subjectTitle">Fun-space</div>
+      <div class="subjectDescription">It is ok to take a break sometimes, here are some productive ways to spend your break including coding! Life is too short to worry about the consequences of trying, so give everything a go which peaks your interest if you can!</div>
+    </div>
+    <br>
+
+    <!-- Subject Courses -->
+    <h2> Ideas </h2>
+    <p>Here is some inspiration to productively spend your free time!</p>
+    <div class="courseContainer">
+      <div>
+        <a class="courseName" href="https://www.youtube.com/@AuzisYouthMusicEmporium"> Music </a>
+        <p></p>
+        <div class="video-container">
+          <iframe
+            width="560" height="315"
+            src="https://www.youtube.com/embed/xWDg5znTvS0"
+            frameborder="0" allowfullscreen>
+          </iframe>
+        </div>
+        <ol>
+          <li class="courseLinks"><a href="https://www.youtube.com/shorts/JIh4NOiou6A"> Cover for Lovely by Billie Eilish and Khalid</a></li>
+          <li class="courseLinks"><a href="https://www.youtube.com/shorts/hqHvejS6wHU"> Cover for Vampire by Olivia Rodrigo</a></li>
+          <li class="courseLinks"><a href="https://www.youtube.com/shorts/dC4mP2X9FzE"> Cover for Lover by Taylor Swift </a></li>
+          <li class="courseLinks"><a href="https://www.youtube.com/shorts/tQBx3nS5QuA"> Cover for Traitor by olivia Rodrigo </a></li>
+        </ol>
+      </div>
+
+      <div>
+        <a class="courseName" href="https://www.youtube.com/playlist?list=PLnAjkt0ATMA9PRBXV1z56d_jaVU7AqkD5"> Maths Questions! </a>
+        <p></p>
+        <div class="video-container">
+          <iframe
+            width="560" height="315"
+            src="https://www.youtube.com/embed/gnk4twnfmpo"
+            frameborder="0" allowfullscreen>
+          </iframe>
+        </div>
+        <ol>
+          <li class="courseLinks"><a href="https://www.youtube.com/watch?v=ZrZ8CUZR-gA&list=PLnAjkt0ATMA9PRBXV1z56d_jaVU7AqkD5&index=1"> An Impossible Quadratic Sequence </a></li>
+          <li class="courseLinks"><a href="https://www.youtube.com/watch?v=ZrZ8CUZR-gA&list=PLnAjkt0ATMA9PRBXV1z56d_jaVU7AqkD5&index=2"> Impossible Tropical Teaser </a></li>
+          <li class="courseLinks"><a href="https://www.youtube.com/watch?v=ZrZ8CUZR-gA&list=PLnAjkt0ATMA9PRBXV1z56d_jaVU7AqkD5&index=3"> Impossible Triangle of Torque </a></li>
+          <li class="courseLinks"><a href="https://www.youtube.com/watch?v=ZrZ8CUZR-gA&list=PLnAjkt0ATMA9PRBXV1z56d_jaVU7AqkD5&index=4"> Can you Simplify this Tricky Equation? </a></li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- footer -->
     <footer>
-      <div class="">
-        <a href="maths.html">Maths</a>
-        <a href="science.html">Science</a>
-        <a href="writing.html">Writing Pieces</a>
-        <a href="fun-space.html">Fun-space</a>
+      <div class="navigator">
+        <ul>
+          <li><a href="maths.html">Maths</a></li>
+          <li><a href="science.html">Science</a></li>
+          <li><a href="writing.html">Writing Pieces</a></li>
+          <li><a href="fun-space.html">Fun-space</a></li>
+        </ul>
       </div>
-      <p> Email auzisyounglearningemporium@gmail.com to ask any questions! </p>
+      <br>
+
+      <p class="align-left"> Email <a class = "noUnderline mail" href="mailto: auzisyounglearningemporium@gmail.com">auzisyounglearningemporium@gmail.com</a> to ask any questions! </p>
+      <p class="align-left credit">© 2025 Anya Gupta. Created by Anya Gupta.</p>
+      <br>
+
       <!-- Title and Logo -->
-      <div class="">
-        <a href="index.html"><h1> Auzi's Young Learning Emporium </h1></a>
-        <a href="index.html"><img src="images/AYLE Logo.png" alt="AYLE Logo" width="100"></a>
+      <div class="footer">
+        <div class="titleAndLogoFooter">
+          <a class="noUnderline" href="index.html"><h1 class="websiteTitleFooter"> Auzi's Young Learning Emporium </h1></a>
+          <a class="logoFooter" href="index.html"><img src="images/AYLE Logo.png" alt="AYLE Logo"></a>
+        </div>
+          <a class="youtube" href="https://www.youtube.com/@2minuteinfo771"><img src="images/YouTube Logo.png" alt="YouTube Channel: 2 Minute Info" width="100"> </a>
+          <a class="youtube" href="https://www.youtube.com/@AYLE2024"><img src="images/YouTube Logo.png" alt="YouTube Channel: Auzi's Young Learning Emporium" width="100"> </a>
       </div>
-      <a href="https://www.youtube.com/@2minuteinfo771"><img src="images/YouTube Logo.png" alt="YouTube Channel: 2 Minute Info" width="100"> </a>
-      <a href="https://www.youtube.com/@AYLE2024"><img src="images/YouTube Logo.png" alt="YouTube Channel: Auzi's Young Learning Emporium" width="100"> </a>
     </footer>
-
-
+      
+    
   </body>
 </html>
