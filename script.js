@@ -60,4 +60,5 @@ function showImages(n) {
 
     images[imageIndex-1].style.display = "block";
     dots[imageIndex-1].className += " active";
+    if (!images[imageIndex - 1] || !dots[imageIndex - 1]) return;
 }
